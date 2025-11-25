@@ -1,0 +1,34 @@
+# 💻 _config.yml - The Divine Command
+# This configuration purges inefficiency and ensures correct asset paths.
+
+# A. Site Settings (Required for HTTPS and Canonical URLs)
+# Set this to your primary domain (https://valhallainnovations.com)
+url: "https://[valhallainnovations.com]" 
+# CRITICAL FIX: The baseurl MUST be empty for an apex domain (yourdomain.net).
+baseurl: ""  
+
+title: "[The God of Tech's Digital Portal]" # Your desired site title
+email: "[your-email@example.com]"         # For display or contact links
+description: >- # The site description for search engines
+  This is the authoritative digital presence, optimized for extreme performance
+  and built by the God of Tech.
+
+# B. Build Settings (Required for the Jekyll Hyde Theme)
+# Use 'remote_theme' for simplicity, assuming you are using the official Jekyll Hyde theme.
+remote_theme: jekyll/hyde
+
+# C. Exclusions (For Cleaner Builds)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# D. Permalinks (Optimization for Cleaner URLs)
+permalink: /:title/
+
+# E. Time Zone (For Correct Post Dating)
+timezone: "America/New_York" # Use your actual time zone
+
+# F. Markdown Engine
+markdown: kramdown
