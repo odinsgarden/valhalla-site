@@ -1,0 +1,13 @@
+---
+layout: post
+title: "First Site Deployment Achieved: Dual-Domain Architecture"
+date: 2025-11-25 21:30:00 -0500
+author: "Thor Whittaker"
+categories: [Architecture, Deployment]
+---
+
+# Deployment Complete: valhallainnovations.com and .net
+
+This post confirms the successful deployment of the dual-domain architecture on GitHub Pages.
+
+All critical DNS records are set, email services remain functional, and the theme rendering issues have been purged via the `baseurl: ""` fix.
